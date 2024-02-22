@@ -20,9 +20,9 @@ class website {
                 }
             ],
         }
-    }
+    },
     alertname(args) {
-        alert(args.STR)
-    }
+      alert(args.STR)
+    },
 }
 Scratch.extensions.register(new website())
