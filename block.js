@@ -9,14 +9,14 @@ class website {
                 {
                     opcode: 'alertname',
                     blockType: Scratch.BlockType.COMMAND,
-                    text: 'alert',
+                    ext: 'Alert [STR]',
                     disableMonitor: true,
                     arguments: {
                         STR: {
-                          type: Scratch.ArgumentType.STRING,
-                          defaultValue: "hello you player!"
+                            type: Scratch.ArgumentType.STRING,
+                            defaultValue: "Hello world!"
                         },
-                      }
+                    }
                 }
             ],
         }
