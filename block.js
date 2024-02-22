@@ -9,7 +9,7 @@ class website {
                 {
                     opcode: 'alertname',
                     blockType: Scratch.BlockType.COMMAND,
-                    ext: 'Alert [STR]',
+                    text: 'Alert [STR]',
                     disableMonitor: true,
                     arguments: {
                         STR: {
