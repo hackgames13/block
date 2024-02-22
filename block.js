@@ -12,7 +12,7 @@ class website {
                     text: 'Alert [STR]',
                     disableMonitor: true,
                     arguments: {
-                        TR: {
+                        STR: {
                             type: Scratch.ArgumentType.STRING,
                             defaultValue: "Hello world!"
                         },
